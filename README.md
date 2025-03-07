@@ -57,12 +57,3 @@ sudo to grant permissions.
 To increase verbosity define `BUSE_DEBUG`. You can do this in make command:
 
     make test CFLAGS=-DBUSE_DEBUG
-
-## ECE566 and RAID1
-
-(Added by Tyler Bletsch)
-
-This package has been augmented with an additional example, raid1.c.
-
-This is a basic implementation of RAID1, sans online fault detection and rebuild.
-It is intended to serve as a base for my course, "Enterprise Storage Architecture" (ECE 566) at Duke University.
